@@ -35,7 +35,8 @@
 		}
 	}
 	.toggle-btn {
-		@extend .btn-white;
+		color: #FFF;
+		border-color: #FFF;
 		font-size: 14px;
 		margin: 11px 10px 0 0;
 	}
