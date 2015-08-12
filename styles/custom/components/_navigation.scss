@@ -1,22 +1,16 @@
-/*
-* Mendix Documentation
-* Special styles for presenting components
-*/
+/* ==========================================================================
+   Navigation
 
-
-/*
-* Navigation
-*
-* Default Mendix Navigation Bar
-*/
+   Default Mendix Navigation Bar
+========================================================================== */
 .mx-navbar {
 
 	ul.nav { 
 
-		/* Navigation item */
+		// Navigation item
 		> li.mx-navbar-item > a {
-		
-			/* Dropdown arrow */
+
+			// Dropdown arrow
 			.caret {
 
 			}
@@ -30,10 +24,10 @@
 				}
 			}
 			&.active {
-				
+
             }
 
-			/* Dropdown Menu */
+			// Dropdown Menu
 			.mx-navbar-submenu:before {
 
 			}
@@ -43,7 +37,7 @@
 			}
 		}
 
-		/* When hovering or the dropdown is open */
+		// When hovering or the dropdown is open
 		> .mx-navbar-item > a:hover, 
 		> .mx-navbar-item > a:focus,
 		> .mx-navbar-item.active a,
@@ -85,11 +79,11 @@
 }
 
 
-/*
-* Navigation
-*
-* Default Mendix Navigation Tree
-*/
+/* ==========================================================================
+   Navigation
+
+   Default Mendix Navigation Tree
+========================================================================== */
 .mx-navigationtree {
 
 	/* Navigation item */
@@ -191,6 +185,7 @@
 		
 	}
 }
+
 /* Vertical variation specifics */
 .mx-menubar-vertical {
 	

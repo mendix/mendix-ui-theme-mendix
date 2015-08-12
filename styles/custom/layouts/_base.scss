@@ -1,29 +1,14 @@
-/*
-* Base Layout
-*
-* Default layout settings
-*/
+/* ==========================================================================
+   Regions
 
-.mx-layoutcontainer-wrapper {
-	
-}
-.mx-layoutcontainer-wrapper.mx-layoutcontainer-nested {
-	
-}
-
-
-/*
-* Regions
-*
-* Used for navigation layouts
-*/
-
+   Used for navigation layouts
+========================================================================== */
 .region-topbar {
 	  border-bottom-color: $color-primary;
 	  min-height: 60px;
 	> .mx-layoutcontainer-wrapper {
 		.mx-navbar ul.nav > li.mx-navbar-item > a {
-			color: #FFF;
+			color: $color-text-white;
 		}
 		.navbar-brand img {
 			height: 26px;
@@ -35,7 +20,7 @@
 		}
 	}
 	.toggle-btn {
-		color: #FFF;
+		color: $color-text-white;
 		border-color: #FFF;
 		font-size: 14px;
 		margin: 11px 10px 0 0;
@@ -66,12 +51,11 @@
 }
 
 
-/*
-* Navbar Brand
-*
-* Used to style your app brand and logo
-*/
+/* ==========================================================================
+   Navbar Brand
 
+   Used to style your app brand and logo
+========================================================================== */
 .navbar-brand {
   	min-height: $minimalheight-topbar;
 	padding: 21px 5px;
@@ -79,7 +63,7 @@
 
 	}
 	a {
-		color: #FFF;
+		color: $color-text-white;
 		font-size: 18px;
 	}
 }
