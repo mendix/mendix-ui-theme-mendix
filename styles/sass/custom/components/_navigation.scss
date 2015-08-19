@@ -87,7 +87,11 @@
 		li {
 			/* Styles here */
 			a {
-				/* Styles here */
+				padding: 20px;
+				border: 0;
+				.glyphicon {
+					margin-right: 0.3em;
+				}
 				.caret {
 
 				}
@@ -120,7 +124,7 @@
 			li {
 
 				a {
-
+					padding: 15px 40px;
 					&:hover,
 					&:focus,
 					&.active {
