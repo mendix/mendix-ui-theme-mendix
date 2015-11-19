@@ -4,12 +4,9 @@
    Used for navigation layouts
 ========================================================================== */
 .region-topbar {
-	  border-bottom-color: $color-primary;
+	  border-bottom-color: $brand-primary;
 	  min-height: 60px;
 	> .mx-layoutcontainer-wrapper {
-		.mx-navbar ul.nav > li.mx-navbar-item > a {
-			color: $color-text-white;
-		}
 		.navbar-brand img {
 			height: 26px;
 			margin-top: -5px;
@@ -20,7 +17,7 @@
 		}
 	}
 	.toggle-btn {
-		color: $color-text-white;
+		color: #FFF;
 		border-color: #FFF;
 		font-size: 14px;
 		margin: 11px 10px 0 0;
@@ -57,13 +54,13 @@
    Used to style your app brand and logo
 ========================================================================== */
 .navbar-brand {
-  	min-height: $minimalheight-topbar;
+  	min-height: $topbar-minimalheight;
 	padding: 21px 5px;
 	img {
 
 	}
 	a {
-		color: $color-text-white;
+		color: #FFF;
 		font-size: 18px;
 	}
 }
