@@ -486,8 +486,6 @@ h1, h2, h3, h4, h5, h6,
 .region-topbar .toggle-btn {
   color: #FFF;
   border-color: #FFF;
-  font-size: 14px;
-  margin: 11px 10px 0 0;
 }
 .region-topbar .navbar-right .mx-appswitcher-button-placeholder,
 .region-topbar .navbar-right .mx-profilemenu-button-placeholder {
