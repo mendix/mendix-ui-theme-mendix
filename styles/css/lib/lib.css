@@ -4438,7 +4438,7 @@ body[dir="ltr"] .mx-header-right {
 }
 .navbar-brand a {
   font-size: 20px;
-  color: #000;
+  color: #FFF;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;

@@ -501,10 +501,6 @@ h1, h2, h3, h4, h5, h6,
 
    Used to style your app brand and logo
 ========================================================================== */
-.navbar-brand {
-  min-height: 60px;
-  padding: 21px 5px;
-}
 .navbar-brand a {
   color: #FFF;
   font-size: 18px;
