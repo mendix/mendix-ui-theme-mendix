@@ -3011,6 +3011,18 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /* ==========================================================================
+   Special styles for presenting Page Template Login
+========================================================================== */
+.page-login-users .profilecard:hover, .page-login-users .profilecard:focus {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.page-login-users .mx-navigationlist .mx-navigationlist-item {
+  padding: 0;
+  border-style: none;
+  background-color: transparent;
+}
+
+/* ==========================================================================
    Special styles for presenting Page Template Master Detail
 ========================================================================== */
 .page-masterdetail {
@@ -3809,13 +3821,16 @@ h1, h2, h3, h4, h5, h6,
   background-color: #eee;
   position: relative;
 }
+.wizard-progress [class*=col-]:first-child .wizard-progress-step {
+  margin-left: 0;
+}
 
 .wizard-steps-container {
   border-bottom: 1px solid #DDD;
 }
 
 .wizard-progress-step {
-  margin: 0;
+  margin: 0 0 0 -30px;
   padding: 14px 20px 14px 30px;
   position: relative;
   background: #eee;
@@ -3829,6 +3844,7 @@ h1, h2, h3, h4, h5, h6,
   content: " ";
   pointer-events: none;
   left: 100%;
+  z-index: 10;
 }
 .wizard-progress-step:before {
   top: 50%;
@@ -3848,6 +3864,22 @@ h1, h2, h3, h4, h5, h6,
 }
 .wizard-progress-step-active:after {
   border-left-color: #d9e6f5;
+}
+.wizard-progress-step-active .wizard-progress-number {
+  background-color: #4280cb;
+}
+
+.wizard-progress-step-visited {
+  background-color: #d9e6f5;
+}
+.wizard-progress-step-visited:after {
+  border-left-color: #d9e6f5;
+}
+.wizard-progress-step-visited .wizard-progress-number {
+  background-color: #66bc2a;
+}
+.wizard-progress-step-visited .wizard-progress-title {
+  color: #66bc2a;
 }
 
 .wizard-progress-number {
