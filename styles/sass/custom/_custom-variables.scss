@@ -13,11 +13,11 @@
 
 //== Step 1: Brand Colors
 $brand-default:                         #DDDDDD;    
-$brand-primary:                         #4280cb;    
-$brand-inverse:                         #1d1e23; 
+$brand-primary:                         #0595db;    
+$brand-inverse:                         #4D4d4d; 
 $brand-info:                            #48B0F7;
-$brand-success:                         #66bc2a;
-$brand-warning:                         #F8D053;
+$brand-success:                         #76ca02;
+$brand-warning:                         #f99b1d;
 $brand-danger:                          #ed1c24;
 
 $brand-logo:                            false;
@@ -44,7 +44,7 @@ $bg-color-secondary:                    #EFF4F7;
 
 // Default Font Size & Color
 $font-base-size:                        14px;
-$font-base-color:                       #000;
+$font-base-color:                       #555;
 
 // Default Link Color
 $link-color:                            $brand-primary;
@@ -488,7 +488,7 @@ $color-text-white-hint:                 rgba($color-text-white, .3);
 //## Specific mobile widgets and components (used in mobile/components/mx-header)
 
 // Height
-// $m-header-height:                       44px;
+// $m-header-height:                    44px;
 
 // Background Color
 $m-header-bg:                           $topbar-bg;
@@ -498,25 +498,6 @@ $m-header-color:                        #FFF;
 
 // Link Color
 $m-header-link-color:                   #FFF;
-
-
-
-
-//== Mobile Tabs
-//## Specific mobile widgets and components (used in mobile/components/tabcontainer)
-
-// Text Color
-// $m-tabs-color:                          #FFF;
-// $m-tabs-color-active:                   #000;
-
-// Background Color
-// $m-tabs-bg:                             $brand-primary;
-// $m-tabs-bg-color-hover:                 lighten($tabs-border-color,5);
-// $m-tabs-bg-color-active:                darken($m-tabs-bg, 15);    
-
-// Border Color
-// $m-tabs-border-color:                   darken($m-tabs-bg, 15);
-// $m-tabs-border-color-active:            darken($m-tabs-bg, 15);
 
 
 

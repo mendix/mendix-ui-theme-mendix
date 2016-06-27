@@ -476,7 +476,7 @@ h1, h2, h3, h4, h5, h6,
    Used for navigation layouts
 ========================================================================== */
 .region-topbar {
-  border-bottom-color: #4280cb;
+  border-bottom-color: #0595db;
   min-height: 60px;
 }
 .region-topbar > .mx-layoutcontainer-wrapper .navbar-brand img {
@@ -586,25 +586,6 @@ body .mx-header .mx-sidebartoggle {
 
    Default Mendix Tabcontainer for Mobile 
 ========================================================================== */
-.profile-phone .mx-tabcontainer-tabs,
-.profile-tablet .mx-tabcontainer-tabs {
-  /* Styles here */
-}
-.profile-phone .mx-tabcontainer-tabs li,
-.profile-tablet .mx-tabcontainer-tabs li {
-  /* Styles here */
-}
-.profile-phone .mx-tabcontainer-tabs li a,
-.profile-tablet .mx-tabcontainer-tabs li a {
-  /* Styles here */
-}
-.profile-phone .mx-tabcontainer-tabs li a:hover, .profile-phone .mx-tabcontainer-tabs li a:focus, .profile-phone .mx-tabcontainer-tabs li a.active,
-.profile-tablet .mx-tabcontainer-tabs li a:hover,
-.profile-tablet .mx-tabcontainer-tabs li a:focus,
-.profile-tablet .mx-tabcontainer-tabs li a.active {
-  /* Styles here */
-}
-
 /* ==========================================================================
    Special styles for presenting Page Template Dashboard
 ========================================================================== */
