@@ -931,7 +931,7 @@ textarea.form-control {
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr.selected td, .mx-datagrid .mx-datagrid-body-table .mx-datagrid-body tr.selected:hover td {
   background-color: #0595db !important;
-  color: #555;
+  color: #FFF;
 }
 .mx-datagrid .mx-datagrid-body-table .mx-datagrid-foot > tr > th {
   padding: 8px 8px 8px 8px;
