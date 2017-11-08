@@ -45,10 +45,13 @@
 @import "pagetemplates/tablet/tablet-page-dashboard";
 @import "pagetemplates/tablet/tablet-page-form";
 @import "pagetemplates/tablet/tablet-page-masterdetail";
+@import "pagetemplates/tablet/tablet-page-tabs";
 @import "pagetemplates/tablet/tablet-page-wizard";
+
 
 // Building Blocks
 @import "buildingblocks/card";
+@import "buildingblocks/controlbar";
 @import "buildingblocks/dashboardcard";
 @import "buildingblocks/dashboardstat";
 @import "buildingblocks/form";
